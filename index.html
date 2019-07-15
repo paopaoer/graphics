@@ -1,0 +1,61 @@
+<!-- Licensed under a BSD license. See license.html for license -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>基于WebGL着色器的研究</title>
+    <link rel="alternate" type="application/atom+xml" title="WebGL Fundamentals" href="https://webglfundamentals.org/atom.xml"/>
+
+    <link href="resources/css/webglfundamentals-icon.png" rel="shortcut icon" type="image/png">
+    <link rel="stylesheet" href="resources/css/base.css" type="text/css" />
+    <link rel="stylesheet" href="resources/css/lesson.css" type="text/css" />
+    <link rel="stylesheet" href="resources/css/index.css" type="text/css" />
+<style>
+   body {
+     margin: 0;
+   }
+   canvas {
+     display: block;  /* prevents scrollbar */
+     width: 100vw;
+     height: 100vh;
+   }
+</style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+</body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="not-jumbotron">
+            <h1 align="center">基于WebGL着色器的研究</h1>
+
+
+            <p align="right">——对于光照效果的模拟</p>
+            <p>&nbsp&nbsp&nbsp&nbsp在 WebGL 中，使用着色语言（Shading Language),通过对着色器 (shader) 的编程，可以实现对光照效果的简单模拟。
+                下面给出三种方法。
+            </p>
+            <p>
+            <ul>
+            <li>实现方法</li>
+            <ul>
+                <li><a href="phong.html">Phong 反射模型</a></li>
+                <li><a href="brdf.html">基于测量的 BRDF</a></li>
+                <li><a href="matcap.html">基于 MatCap 渲染</a></li>
+            </ul>
+             </ul>
+
+            </p>
+        </div>
+    </div>
+</div>
+<script src="resources/js/webgl-utils.js"></script>
+<script src="resources/js/webgl-lessons-helper.js"></script> <!-- you can and should delete this script. it is only used on the site to help with errors -->
+<script src="resources/js/m4.js"></script>
+<script src="resources/js/primitives.js"></script>
+<script src="resources/js/same-code.js"></script>
+</html>
+
+

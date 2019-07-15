@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基于 MatCap 渲染</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="alternate" type="application/atom+xml" title="WebGL Fundamentals" href="https://webglfundamentals.org/atom.xml"/>
+
+    <link href="resources/css/webglfundamentals-icon.png" rel="shortcut icon" type="image/png">
+
+</head>
+<body>
+
+<div id="main">
+    <canvas id="canvas" ></canvas>
+    <div id="sidebar">
+        <ul>
+            <li><span class="caption">Frame Rate</span><span id="frameStats"></span></li>
+            <li><span class="caption">Material
+		</span><select id="selectMatCap" size="1"></select>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+<script src="js/lib/gl-matrix.js"  ></script>
+<script src="js/lib/jquery-3.2.1.js"></script>
+<script src="js/matcap_gl.js" ></script>
+</html>
